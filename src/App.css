@@ -1,0 +1,134 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.dark-mode {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+input:-internal-autofill-selected{
+  background-color: transparent !important;
+}
+
+.form_root{
+  max-width: 400px;
+  width: 100%;
+}
+
+.button_mode {  
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.button_light{
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #111111;
+}
+
+.button_dark{
+  background-color: white;
+  border: 2px solid #000;
+  color: #fff;
+}
+
+.button_mode img {
+  width: 25px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.input_ele{
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 0 0 7px 7px;
+}
+
+.input_light {
+  border-bottom: 1px solid #000;
+  color: black;
+}
+
+.input_dark{
+  border-bottom: 1px solid #fff;
+  color: white;
+}
+
+.captcha_root{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.captcha_btn{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.captcha_btn img{
+  cursor: pointer;
+  width: 30px;
+}
+
+.captcha{
+  font-size: 22px;
+}
+
+.captcha_light{
+  color: black;
+}
+
+.captcha_dark{
+  color: white;
+}
+
+.button_signup{
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.buttonSign_light {
+  background: #111;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.buttonSign_dark {
+  background: #fff;
+  color: black;
+  border: 1px solid #000;
+}
